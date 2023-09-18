@@ -23,6 +23,7 @@ body {
 }
 
 main {
+    flex: 1;
     height: 100%;
     width: 100%;
     display: flex;
@@ -34,16 +35,16 @@ main {
 .search-container {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
-    height: 400px;
+    height: 350px;
     width: 90%;
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-top: 10em;
     border-radius: 20px;
 }
 
 .search-container h1 {
     background: -webkit-linear-gradient(left ,#ffffff, #880101);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -107,7 +108,7 @@ main {
     }
 
     .search-form input {
-        width: 80%;
+        width: 75%;
         height: 56px;
         padding: 0;
         padding-left: 10px;
