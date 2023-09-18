@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/atriox-banner-large.jpg);
+    margin: 0;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    width: 130px;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    height: 400px;
+    width: 90%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10em;
+    border-radius: 20px;
+}
+
+.search-container h1 {
+    background: -webkit-linear-gradient(left ,#ffffff, #880101);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-btn {
+    width: 62px;
+    height: 64px;
+    border: none;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.search-form input {
+    width: 50%;
+    height: 30px;
+    padding: 2rem;
+    border: none;
+    outline: 0;
+}
+
+.footer {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: aliceblue;
+}
+
+.github-link {
+    color: #ff0000;
+}
+
+@media (max-width: 600px) {
+    .search-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .search-container h1 {
+        margin-bottom: 2rem;
+    }
+    
+    .search-content {
+        width: 100%;
+    }
+
+    .search-form {
+        display: block;
+        padding: 2%;
+    }
+
+    .search-form input {
+        width: 80%;
+        height: 56px;
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .search-btn {
+        height: 56px;
+    }
+}
